@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.emotions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.emotion {
+    cursor: pointer;
+    text-align: center;
+}
+
+.emotion img {
+    width: 100px;
+    height: 100px;
+}
+
+#description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
